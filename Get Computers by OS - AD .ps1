@@ -1,0 +1,1 @@
+(Get-ADComputer -Filter 'operatingsystem -notlike "server"').Name | Out-File C:\Temp\computers.txt

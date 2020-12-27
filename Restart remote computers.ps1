@@ -1,0 +1,1 @@
+﻿Restart-Computer -ComputerName (Get-Content C:\Temp\computers.txt) -Force -ErrorAction SilentlyContinue -ErrorVariable NoRestart

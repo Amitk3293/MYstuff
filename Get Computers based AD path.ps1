@@ -1,0 +1,1 @@
+﻿Get-ADComputer -Filter * -SearchBase "DC=bnology,DC=local" -Property * | Select-Object Name | Export-CSV "C://All-computers.csv" -NoTypeInformation -Encoding UTF8
